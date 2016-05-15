@@ -50,7 +50,6 @@ plot(Plot_Data$Age,Plot_Data$Pclass,pch=20,col=rgb(r=red,g=0,b=1-red))
 
 
 ```{r echo = F, results = 'asis'}
-require(rCharts)
 data <- read.csv("passenger.csv",sep=",")
 data <- na.omit(data)
 
