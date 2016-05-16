@@ -49,11 +49,6 @@ plot(Plot_Data$Age,Plot_Data$Pclass,pch=20,col=rgb(r=red,g=0,b=1-red))
 ## Conclusion
 
 
-
-```
-## Loading required package: rCharts
-```
-
 ![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png)
 As we can see from the figure above, the passengers in the first-class and children have higher survival probabilities than others.
 
